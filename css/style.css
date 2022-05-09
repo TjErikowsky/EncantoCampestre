@@ -233,6 +233,13 @@ p{
 
 /*------/ Space Padding /------*/
 
+.section-services{
+  width: 100%;
+  height: 70%;
+  background-position: center;
+  background-size: cover;
+}
+
 .section-t8 {
   padding-top: 8rem;
 }
@@ -262,6 +269,7 @@ p{
 .title-a {
   font-size: 2.6rem;
   font-weight: 600;
+  margin-top: -60px;
 }
 
 .title-link {
@@ -1667,6 +1675,14 @@ footer .credits {
   color: #ffffff;
 }
 
+.whatsapp{
+  width: 40px;
+}
+
+.whatsapp:hover{
+  color: #fff;
+
+}
 @media (min-width: 576px) {
   .intro .intro-title {
     font-size: 3.5rem;
@@ -2037,3 +2053,9 @@ footer .credits {
     font-size: 1.3rem;
   }
 }
+
+.video{
+  text-align: center;
+  display: block;
+}
+
